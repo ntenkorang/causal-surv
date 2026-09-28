@@ -1,0 +1,7 @@
+attempted 1000 | Cox non-convergence 52 | missing estimates 21 | usable 927
+ tau   n  R_median  R_lo  R_hi  P_R_gt_1  ESSr_median  ESSr_lo  ESSr_hi  boot_var_ratio  kurt_OW  kurt_CO  P_CO_gt_OW
+ 5.0 927     1.013 1.006 1.021     0.998        0.994    0.992    0.995           1.008    2.825    2.814       0.871
+ 7.0 927     1.119 1.055 1.204     0.991        0.942    0.912    0.960           1.044    2.860    2.764       0.882
+ 8.0 927     1.401 1.060 1.619     0.983        0.784    0.734    0.832           1.190    3.024    2.733       0.901
+hormonally treated per resample, median: failed 335 | usable 339
+treated and operated on 1992-1993, median: failed 128 | usable 128

@@ -1,0 +1,18 @@
+(1)-(2) mixed-bias identity for r_a and exact L_a, one (x=2, a=1) cell, joint perturbation 0.2
+   r_a  direct +0.03055360   formula +0.03055360
+   L_a  direct +0.06115849   formula +0.06115849
+
+(3) second order: R2 / eps^2 as eps -> 0 (CO c=0.3)
+   treatment  -0.00362  -0.00359  -0.00357  -0.00356
+   event      +0.00000  +0.00000  +0.00000  +0.00000
+   censoring  -0.07195  -0.05847  -0.05273  -0.05010
+   all three  -0.08876  -0.09491  -0.09791  -0.09935
+
+(4) cancellation: follow-up collapses in stratum x=2 (censoring slope eta); fixed errors
+    event hazard x exp(0.2 f), censoring hazard x exp(0.2 g), propensity exact
+    eta  G1(tau|x=2)      |R2| OW  |R2| CO c=0.1  |R2| CO c=1
+    0.8     1.09e-01    4.075e-03      8.523e-04    1.593e-04
+    1.2     7.20e-03    1.254e-02      1.294e-03    6.499e-04
+    1.6     1.70e-05    7.077e-02      1.459e-03    1.060e-03
+    2.0     2.44e-11    1.972e+00      9.378e-04    8.418e-04
+    2.4     2.41e-24    6.405e+03      8.116e-04    5.724e-04

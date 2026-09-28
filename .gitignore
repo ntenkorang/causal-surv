@@ -1,0 +1,9 @@
+data/*.rda
+__pycache__/
+*.pyc
+.venv/
+
+# Replicate-level generated outputs
+results/sims/factorial_R*_cell*_raw.csv
+results/realdata/bootstrap/
+results/realdata/rotterdam_bootstrap_replicates.csv

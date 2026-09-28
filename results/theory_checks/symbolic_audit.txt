@@ -1,0 +1,21 @@
+Part 1: symbolic identities
+  H_e    = H^2 (k1/e^2 - k0/(1-e)^2)         exact
+  H_l1   = H^2 u1                            exact
+  H_l1l1 = 2 H^3 u1^2 - H^2 u1               exact
+  H_el1  = 2 H H_e u1 - H^2 u1 / e           exact
+  H_ee   = 2 F_e^2/F^3 - F_ee/F^2            exact
+
+Part 2: inequalities on 2,000,000 random points (e in [0.02, 0.98], c in [0.01, 1], g down to 1e-300)
+  H <= e g1 / c                        max ratio 1.0000  OK   (finite points: 1.000)
+  H <= (1-e) g0 / c                    max ratio 1.0000  OK   (finite points: 1.000)
+  H <= min(e, 1-e)                     max ratio 0.9800  OK   (finite points: 1.000)
+  |H_e| <= 1                           max ratio 0.9600  OK   (finite points: 1.000)
+  |H_e| <= H / (e(1-e))                max ratio 0.9800  OK   (finite points: 1.000)
+  |H_l1| <= H                          max ratio 1.0000  OK   (finite points: 1.000)
+  |H_l1l1| <= 3 H <= 3 e g1 / c        max ratio 0.3333  OK   (finite points: 1.000)
+  |H_el1| <= 3 g1 / (c eps_e)          max ratio 0.0935  OK   (finite points: 1.000)
+  |H_ee| <= 8 / (e(1-e))               max ratio 0.0625  OK   (finite points: 0.948)
+
+Stable form  H_g1/e <= 1/c : max ratio 1.000000  OK
+(Checked in stable form: the naive c*H**2/(e**2*g1**2) underflows for g1 < 1e-150.)
+Naive form restricted to g1 > 1e-150: max ratio 1.000000

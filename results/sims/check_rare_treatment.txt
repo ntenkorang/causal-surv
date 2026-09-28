@@ -1,0 +1,12 @@
+rare treatment (~8%), rho=0.5: OW weak-FU mass 0.21, G1 q05 0.072
+   OW                 Var/VarOW  1.00  IQR^2 ratio  1.00  kurt    3.3  TV 0.00
+   CO c=0.1           Var/VarOW  0.94  IQR^2 ratio  0.99  kurt    3.1  TV 0.12
+   CO c=0.3           Var/VarOW  1.01  IQR^2 ratio  1.03  kurt    3.3  TV 0.19
+   CO c=1.0           Var/VarOW  1.17  IQR^2 ratio  1.08  kurt    3.2  TV 0.27
+   naive e(1-e)G1G0   Var/VarOW  1.62  IQR^2 ratio  1.70  kurt    3.0  TV 0.41
+rare treatment (~8%), rho=0.75: OW weak-FU mass 0.35, G1 q05 0.016
+   OW                 Var/VarOW  1.00  IQR^2 ratio  1.00  kurt   15.4  TV 0.00
+   CO c=0.1           Var/VarOW  0.53  IQR^2 ratio  0.90  kurt    5.2  TV 0.22
+   CO c=0.3           Var/VarOW  0.62  IQR^2 ratio  0.92  kurt   19.5  TV 0.30
+   CO c=1.0           Var/VarOW  0.71  IQR^2 ratio  0.99  kurt   20.5  TV 0.38
+   naive e(1-e)G1G0   Var/VarOW  0.75  IQR^2 ratio  1.24  kurt    3.0  TV 0.50

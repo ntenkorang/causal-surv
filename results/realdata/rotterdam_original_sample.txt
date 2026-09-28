@@ -1,0 +1,6 @@
+tau=5 OW: psi 0.254  se 0.076  treated-arm ESS 260
+tau=5 CO: psi 0.255  se 0.076  treated-arm ESS 258
+tau=7 OW: psi 0.416  se 0.124  treated-arm ESS 260
+tau=7 CO: psi 0.437  se 0.131  treated-arm ESS 246
+tau=8 OW: psi 0.429  se 0.150  treated-arm ESS 260
+tau=8 CO: psi 0.506  se 0.180  treated-arm ESS 206

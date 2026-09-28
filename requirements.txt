@@ -1,0 +1,11 @@
+# Python 3.11 or 3.12
+numpy==2.4.4
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.8.0
+lifelines==0.30.3
+autograd==1.9.1
+autograd-gamma==0.5.0
+formulaic==1.2.2
+pyreadr==0.5.6
+sympy==1.14.0

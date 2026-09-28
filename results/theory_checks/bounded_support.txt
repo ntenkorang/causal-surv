@@ -1,0 +1,11 @@
+design        b     V(h_OW)   V(h_CO)   Mass  E(h_CO)
+randomized    2        8.91    8.8719  0.964   0.2410
+randomized    3        9.04    8.9377  0.957   0.2392
+randomized    4       9.159    8.9472  0.956   0.2389
+randomized    5        1040    8.9474  0.955   0.2389
+randomized    6   8.493e+20    8.9474  0.955   0.2389
+logistic      2       9.312    9.2756  0.965   0.2304
+logistic      3       9.511    9.4242  0.959   0.2267
+logistic      4       9.587    9.4405  0.959   0.2263
+logistic      5       341.4    9.4409  0.959   0.2263
+logistic      6   1.733e+20    9.4409  0.959   0.2263

@@ -1,0 +1,7 @@
+women 2982 | deaths 1272 | censored 1710
+correlation of surgery year with follow-up among censored: -0.78
+calendar end of censored follow-up: median 1998.3, 10th pct 1995.7, 90th pct 2000.3
+deaths after the 90th pct of censored follow-up: 4
+hormonal therapy among women operated on in 1978-1982: 2.0% (n = 102)
+hormonal therapy among women operated on in 1983-1987: 4.2% (n = 1065)
+hormonal therapy among women operated on in 1988-1993: 16.1% (n = 1815)

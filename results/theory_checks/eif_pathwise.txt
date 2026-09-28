@@ -1,0 +1,19 @@
+Psi = 0.14627   E[D] = +0.00008 (MC SE 0.00168)
+
+direction     dPsi/dt exact  E[D s] (MC)    MC SE      z
+X-marginal          0.01079      0.01290  0.00122   1.73
+treatment           0.01057      0.00917  0.00060  -2.33
+event law           0.29575      0.29565  0.00091  -0.11
+censoring           0.03611      0.03483  0.00077  -1.68
+
+component    analytic  MC E[part^2]
+X             0.00428       0.00428
+A             0.00105       0.00105
+T             5.60575       5.60174
+C             0.01143       0.01137
+sum           5.62252       5.61734   | largest |cross moment| = 0.00051
+
+exact pairings vs exact derivatives
+  X: E[D s] = 0.01079153   dPsi/dt = 0.01079153   diff = +9.5e-13
+  A: E[D s] = 0.01057207   dPsi/dt = 0.01057207   diff = +2.5e-12
+  C: E[D s] = 0.03611444   dPsi/dt = 0.03611444   diff = +5.7e-14

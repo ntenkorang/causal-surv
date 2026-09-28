@@ -1,0 +1,35 @@
+
+=== R4 | censoring model flat for X2>None (mass 0.000) | tau=5 | good trt / poor FU | cens 45% | G1 q05 0.003
+  tilt                  bias      SD    RMSE  cover   kurt  TV_OW     psi
+  OW                  -0.002   0.120   0.120  94.0%    4.8   0.00   0.286
+  CO c=0.1            +0.003   0.090   0.090  93.6%    2.9   0.13   0.375
+  CO c=0.3            +0.002   0.089   0.089  93.4%    3.0   0.18   0.412
+  CO c=1.0            +0.002   0.091   0.091  95.0%    3.0   0.25   0.461
+
+=== R4 | censoring model flat for X2>2.0 (mass 0.023) | tau=5 | good trt / poor FU | cens 45% | G1 q05 0.003
+  tilt                  bias      SD    RMSE  cover   kurt  TV_OW     psi
+  OW                  +0.002   0.115   0.115  93.8%    4.3   0.00   0.286
+  CO c=0.1            +0.003   0.090   0.090  94.2%    2.9   0.13   0.375
+  CO c=0.3            +0.002   0.089   0.090  93.6%    3.0   0.18   0.412
+  CO c=1.0            +0.002   0.091   0.091  95.0%    3.0   0.25   0.461
+
+=== R4 | censoring model flat for X2>1.5 (mass 0.067) | tau=5 | good trt / poor FU | cens 45% | G1 q05 0.003
+  tilt                  bias      SD    RMSE  cover   kurt  TV_OW     psi
+  OW                  +0.003   0.100   0.100  92.8%    3.4   0.00   0.286
+  CO c=0.1            +0.001   0.091   0.091  94.0%    2.9   0.13   0.375
+  CO c=0.3            +0.002   0.090   0.090  94.4%    3.0   0.18   0.412
+  CO c=1.0            +0.002   0.091   0.091  95.4%    3.0   0.25   0.461
+
+=== R4 | censoring model flat for X2>1.0 (mass 0.159) | tau=5 | good trt / poor FU | cens 45% | G1 q05 0.003
+  tilt                  bias      SD    RMSE  cover   kurt  TV_OW     psi
+  OW                  +0.003   0.094   0.094  93.2%    3.4   0.00   0.286
+  CO c=0.1            -0.008   0.090   0.090  93.4%    3.1   0.13   0.375
+  CO c=0.3            -0.001   0.089   0.089  94.6%    3.0   0.18   0.412
+  CO c=1.0            +0.002   0.091   0.091  95.8%    3.0   0.25   0.461
+
+=== R4 | censoring model flat for X2>0.5 (mass 0.309) | tau=5 | good trt / poor FU | cens 45% | G1 q05 0.003
+  tilt                  bias      SD    RMSE  cover   kurt  TV_OW     psi
+  OW                  +0.002   0.092   0.092  92.0%    3.2   0.00   0.286
+  CO c=0.1            -0.028   0.088   0.092  92.0%    3.1   0.13   0.375
+  CO c=0.3            -0.012   0.087   0.087  93.8%    3.1   0.18   0.412
+  CO c=1.0            +0.002   0.089   0.089  96.0%    3.1   0.25   0.461
